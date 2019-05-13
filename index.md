@@ -1,37 +1,108 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Butterflypig/butterfly.github.com/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Butterflypig/butterfly.github.com/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table,th,td{
+            border: 1px solid gray;
+        }
+        th,td{
+            padding: 10px 5px;
+        }
+        .time td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <th colspan="4"> 2018-10月考试课程表 </th>
+            </tr>
+            <tr>
+                <th colspan="2">2018-10-20(星期六)</th>
+                <th colspan="2">2018-10-21(星期日)</th>
+            </tr>
+            <tr class="time">
+                <td>09:00-11:30</td>
+                <td>14:30-17:00</td>
+                <td>09:00-11:30</td>
+                <td>14:30-17:00</td>
+            </tr>
+            <tr>
+                <td>
+                    02142 数据结构导论 <br/>
+                    02316 计算机应用技术 <br/>
+                    02318 计算机组成原理 <br/>
+                    03706 思想道德修养与法律基础 <br/>
+                </td>
+                <td>
+                    00022 高等数学（工专）<br/>
+                    00342 高级语言程序设计（一）<br/>
+                    04730 电子技术基础（三）<br/>
+                </td>
+                <td>
+                    02141 计算机网络技术 <br/>
+                    02198 线性代数 <br/>
+                    04729 大学语文 <br/>
+                    04732 微型计算机及接口技术 <br/>
+                    12656 毛泽东思想和中国特色社会主义理论体系概论 <br/>
+                </td>
+                <td>
+                    00012 英语（一）<br/>
+                    02120 数据库及其应用 <br/>
+                    02323 操作系统概论 <br/>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="4"> 2019-4月考试课程表 </th>
+            </tr>
+            <tr>
+                <th colspan="2">2019-04-13(星期六)</th>
+                <th colspan="2">2019-04-14(星期日)</th>
+            </tr>
+            <tr class="time">
+                <td>09:00-11:30</td>
+                <td>14:30-17:00</td>
+                <td>09:00-11:30</td>
+                <td>14:30-17:00</td>
+            </tr>
+            <tr>
+                <td>
+                    02142 数据结构导论 <br/>
+                    02316 计算机应用技术 <br/>
+                    02318 计算机组成原理 <br/>
+                    12656 毛泽东思想和中国特色社会主义理论体系概论 <br/>
+                </td>
+                <td>
+                    00342 高级语言程序设计（一）<br/>
+                    02198 线性代数 <br/>
+                    03706 思想道德修养与法律基础 <br/>
+                    04730 电子技术基础（三）<br/>
+                </td>
+                <td>
+                    02141 计算机网络技术 <br/>
+                    04732 微型计算机及接口技术 <br/>
+                </td>
+                <td>
+                    00012 英语（一）<br/>
+                    00022 高等数学（工专）<br/>
+                    02120 数据库及其应用 <br/>
+                    04729 大学语文 <br/>
+                    02323 操作系统概论 <br/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
